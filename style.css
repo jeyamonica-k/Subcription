@@ -1,0 +1,41 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.header{
+  display: flex;
+  justify-content: center;
+  background-color: palevioletred;
+  color: black;
+}
+.header h1{
+  padding: 10px;
+}
+.container{
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.container__c1{
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  width: 190px;
+  height: 250px;
+  padding: 10px;
+  
+}
+.container__c1 h1,h2{
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.container__ul{
+  border: solid white 1px;
+  border-radius: 5px;
+  
+}
+.container__ul li{
+  padding: 5px;
+}
